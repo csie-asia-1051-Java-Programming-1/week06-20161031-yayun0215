@@ -16,14 +16,21 @@ public class ex04 {
 		int n=scn.nextInt();
 		int data[]=new int[n];
 		for(int i=0;i<n;i++){
-			data[i]=data.length;
+			data[i]=scn.nextInt();
+			
 			
 		}
+		square(data,n);
 		
 		
 
 
 		
+	}
+	public static void square(int square[],int a){
+		for(int i=0;i<a;i++){
+			System.out.print(square[i]*square[i]+"\t");
+		}
 	}
 
 }
