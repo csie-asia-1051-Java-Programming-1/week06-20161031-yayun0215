@@ -1,4 +1,4 @@
-language: java
+language: java 
 script:
   - git clone https://github.com/csie-asia-Java-Programming-1/TestingData.git
   - cp -r TestingData/week06-20161031/ week06-20161031/bot/
